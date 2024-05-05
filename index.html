@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="fan">
+        <div class="blade blade-1"></div>
+        <div class="blade blade-2"></div>
+        <div class="blade blade-3"></div>
+        <div class="blade blade-4"></div>
+        <div class="blade blade-5"></div>
+        <div class="hub">
+            <div class="center"></div>
+            <div class="guard"></div>
+        </div>
+    </div>
+
+    <div id="speed-slider-container">
+        <span id="speed-label">Speed:</span>
+        <input type="range" id="speed-slider" min="0" max="100" value="88" />
+        <span id="speed-value">100</span>
+    </div>
+
+    <button id="toggle-fan">Want to stop ?</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
